@@ -1,8 +1,6 @@
-module github.com/openwurl/comply
+module github.com/strongdm/comply
 
 go 1.12
-
-replace github.com/strongdm/comply => ./internal
 
 require (
 	github.com/Clever/gitsem v1.0.4
@@ -50,3 +48,5 @@ require (
 	gopkg.in/blang/semver.v1 v1.1.0 // indirect
 	gopkg.in/yaml.v2 v2.3.0
 )
+
+replace github.com/strongdm/comply v1.5.2 => github.com/openwurl/comply v1.5.2
