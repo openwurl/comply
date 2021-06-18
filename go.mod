@@ -1,4 +1,4 @@
-module github.com/openwurl/comply
+module github.com/strongdm/comply
 
 go 1.12
 
