@@ -1,6 +1,8 @@
-module github.com/strongdm/comply
+module github.com/openwurl/comply
 
 go 1.12
+
+replace github.com/strongdm/comply => ./internal
 
 require (
 	github.com/Clever/gitsem v1.0.4
