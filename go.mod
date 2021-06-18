@@ -49,4 +49,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.0
 )
 
-replace github.com/strongdm/comply v1.5.2 => github.com/openwurl/comply v1.5.2
+replace github.com/strongdm/comply v1.5.2 => github.com/openwurl/comply forked-module
